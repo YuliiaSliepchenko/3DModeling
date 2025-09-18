@@ -122,6 +122,12 @@ body {
     color: #111827;
     margin: 0;
 }
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
 
 .logo-text p {
     font-size: 12px;
@@ -923,6 +929,18 @@ body {
     font-size: 20px;
     color: white;
     margin: 0;
+}
+.footer-logos {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    text-decoration: none;
+}
+.header-logos {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    text-decoration: none;
 }
 
 .footer-logo .logo-text p {
