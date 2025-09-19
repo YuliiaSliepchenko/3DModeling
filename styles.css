@@ -340,7 +340,7 @@ body {
     width: 80px;
     height: 80px;
     font-size: 18px;
-    background: #000000;
+    background: linear-gradient(to right, #01b7ff, #e3f300);
      border-radius: 15px;
 }
 
