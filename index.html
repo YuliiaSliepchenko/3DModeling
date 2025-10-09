@@ -21,7 +21,7 @@
                     <div class="logo-text">
                             <a class="header-logos" href="https://yuliiasliepchenko.github.io/goit-markup-hw-08/"><span class="logo-text"><h1>ItEnAi</h1>
                         </span></a>
-                            <p>3D School</p>
+                            <p>IT School</p>
                         </div>
                 </div>
 
@@ -114,12 +114,19 @@
                 </div>
 
                 <div class="hero-right">
-                    <div class="hero-image">
-                        <img src="https://pub-cdn.sider.ai/u/U0Y3H2XG568/web-coder/6883a2eef2d3a0ac8dc38920/resource/c4897a63-84d7-44b4-aa2b-4984f5d3c6c4.jpg" alt="3D моделювання в Blender">
-                        <div class="floating-element floating-3d"><img src="./images/adaptive/favavtItEnAi.png" alt="logo"></div>
-                        <div class="floating-element floating-users">👥</div>
-                    </div>
-                </div>
+  <div class="hero-image">
+    <div class="hero-image-inner">
+      <img src="./images/adaptive/blender.png"
+           alt="Roblox: програмування">
+    </div>
+
+    <!-- бейджі залишаються поверх, ПІСЛЯ .hero-image-inner -->
+    <div class="floating-element floating-3d">
+      <img src="./images/adaptive/favavtItEnAi.png" alt="logo ItEnAi">
+    </div>
+    <div class="floating-element floating-users">👥</div>
+  </div>
+</div>
             </div>
         </div>
     </section>
@@ -164,7 +171,6 @@
                         <li><span class="check">✓</span>Вміння створювати власні 3D-проєкти</li>
                         <li><span class="check">✓</span>Основи професійного 3D-моделювання</li>
                         <li><span class="check">✓</span>Навички роботи з анімацією та візуальними ефектами</li>
-                        <li><span class="check">✓</span>Підготовка до сучасних IT-професій</li>
                     </ul>
                 </div>
                 <div class="about-right">
@@ -300,7 +306,7 @@
                     <div class="stat-label">Рейтинг курсу</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number gradient-text">11/7</div>
+                    <div class="stat-number gradient-text">8/7</div>
                     <div class="stat-label">Підтримка</div>
                 </div>
             </div>
@@ -335,23 +341,48 @@
                 <div class="benefit-card">
                     <div class="benefit-icon">🌐</div>
                     <h3>Майбутні професії</h3>
-                    <p>Підготовка до карʼєри в геймдеві, анімації, архвізуалізації</p>
+                    <p>Ми навчимо як правильно реалізувати свої проєкти</p>
                 </div>
             </div>
 
             <!-- Testimonial -->
-            <div class="testimonial">
-                <div class="testimonial-content">
-                    <div class="quote">"</div>
-                    <blockquote>
-                        Мій син навчався на курсі Blender і тепер створює неймовірні 3D-моделі! 
-                        Викладачі професійні, а програма дуже цікава та зрозуміла для дітей.
-                    </blockquote>
-                    <div class="testimonial-author">
-                        Олена Петренко, мама учня
-                    </div>
-                </div>
-            </div>
+            <section class="testimonials">
+  <div class="testimonial active">
+    <div class="testimonial-content">
+      <div class="quote">"</div>
+      <blockquote>
+Син просто у захваті від 3D-моделювання! Кожен урок — це новий всесвіт, який він створює власноруч. Тепер він показує мені свої моделі машин і персонажів — навіть не віриться, що це зробив він сам!
+      </blockquote>
+      <div class="testimonial-author">Наталія Верещук, мама учня</div>
+    </div>
+  </div>
+
+  <div class="testimonial">
+    <div class="testimonial-content">
+      <div class="quote">"</div>
+      <blockquote>
+Донька завжди любила малювати, а тепер переносить свої ідеї у тривимірний світ! Викладач пояснює настільки доступно, що навіть складні інструменти Blender здаються грою. Велике спасибі школі ItEnAi за натхнення!
+      </blockquote>
+      <div class="testimonial-author">Олександр Гриценко, тато учениці</div>
+    </div>
+  </div>
+
+  <div class="testimonial">
+    <div class="testimonial-content">
+      <div class="quote">"</div>
+      <blockquote>
+Я здивований, як швидко дитина навчилася створювати повноцінні 3D-об’єкти. Вона вже планує зробити власну гру з персонажами, які сама змоделює. Курс перевершив усі наші очікування!
+      </blockquote>
+      <div class="testimonial-author">Ірина Коваль, мама учня</div>
+    </div>
+  </div>
+
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
         </div>
     </section>
 
@@ -379,9 +410,7 @@
                         <li><span class="check">✓</span>Практичні завдання</li>
                         <li><span class="check">✓</span>Сертифікат про завершення</li>
                         <li><span class="check">✓</span>Чат підтримки</li>
-                        <li><span class="check">✓</span>Миттєва підтримка викладача</li>
                         <li><span class="check">✓</span>Додаткові проєкти та завдання</li>
-                        <li><span class="check">✓</span>Підготовка портфоліо</li>
                     </ul>
                     <button class="btn btn-outline pricing-btn" onclick="scrollToSection('contact')">Обрати план</button>
                 </div>
@@ -398,10 +427,8 @@
                     <ul class="features-list">
                         <li><span class="check">✓</span>24 уроки</li>
                         <li><span class="check">✓</span>Персоналізована програма</li>
-                        <li><span class="check">✓</span>Безлімітний доступ до матеріалів</li>
-                        <li><span class="check">✓</span>Миттєва підтримка викладача</li>
                         <li><span class="check">✓</span>Додаткові проєкти та завдання</li>
-                        <li><span class="check">✓</span>Підготовка портфоліо</li>
+                        <li><span class="check">✓</span>Практичні завдання</li>
                         <li><span class="check">✓</span>Рекомендації для подальшого навчання</li>
                         <li><span class="check">✓</span>Гарантія результату</li>
                     </ul>
@@ -482,7 +509,7 @@
                             <div class="contact-icon contact-location">📍</div>
                             <div>
                                 <div class="contact-title">Адреса</div>
-                                <div class="contact-value">м. Кременчук, вул. Полковника Гегечкорі ,б.29</div>
+                                <div class="contact-value">м. Кременчук, вул. Полковника Гегечкорі б.29</div>
                             </div>
                         </div>
                     </div>
@@ -540,7 +567,7 @@
                     <div class="footer-contacts">
                         <p>📞 +380 (93) 14-80-343</p>
                         <p>✉️ schoolitenai@gmail.com</p>
-                        <p>📍 м. Кременчук, вул. Полковника Гегечкорі ,б.29</p>
+                        <p>📍 м. Кременчук, вул. Полковника Гегечкорі б.29</p>
                         <p>🕒 Пн-Пт: 10:00-21:00</p>
                     </div>
                 </div>
@@ -560,5 +587,6 @@
 
     <script src="script.js"></script>
     <script src="./js/form.js"></script>
+    <script src="./js/slider.js"></script>
 </body>
 </html>
